@@ -16,6 +16,8 @@ function newElement() {
   }
   document.getElementById("myInput").value = "";
   }
+  
+  
 function removeAll(){
   var lst = document.getElementsByTagName("ul");
     lst[0].innerHTML = "";
